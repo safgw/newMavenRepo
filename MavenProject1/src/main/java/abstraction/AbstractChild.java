@@ -8,7 +8,7 @@ public class AbstractChild extends AbstractParent {
 	public static void main(String[] args) {
 		AbstractParent obj = new AbstractChild();
 		obj.display();
-		//obj.childsMethod();  This will not work. Can't access Child's methos using Parent's reference
+		//obj.childsMethod();  This will not work. Can't access Child's method using Parent's reference
 		AbstractChild obj1 = new AbstractChild();
 		obj1.childsMethod();
 

@@ -21,8 +21,6 @@ public class Interface1Child implements Interface1{
 	public void display() {
 		System.out.println("..Display...");		
 		
-	}
-
-	
+	}	
 	
 }
