@@ -2,19 +2,22 @@ package exceptionHandling;
 
 public class Example2 {
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 	
 		/*
+		
 		try
 		{
 		divide(10,0);
 		}
 		catch(ArithmeticException e)
 		{
-			
+			System.out.println("Division by 0 not allowed");
 		}
+		
 		*/
+		
 	
 		divide(10,0);
 
@@ -24,7 +27,7 @@ public class Example2 {
 	{
 		if(b==0)
 		{
-			//int c = a/b;
+			int c = a/b;
 			//System.out.println(c);
 			//System.out.println("Invalid; Division by 0 not valid");
 			throw new ArithmeticException("Division by 0 not allowed");

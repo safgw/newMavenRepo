@@ -15,6 +15,8 @@ public class Example1 {
 			int c=a/b;
 			System.out.println(c);
 		}
+		
+		
 		catch(ArithmeticException e)
 		{
 			// Not mandatory to have code in this block
@@ -22,13 +24,15 @@ public class Example1 {
 			
 		}
 		
+
+		
 		finally
 		{
 			int a=10;
 			int b=5;
 			int c=a+b;
 			System.out.println(c);
-		}
+		}	
 		
 	
 
